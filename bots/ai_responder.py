@@ -2,7 +2,7 @@
 
 import requests
 import json
-from ..config import load_config
+from config import load_config
 
 def generate_reply(user_message):
     config = load_config()
